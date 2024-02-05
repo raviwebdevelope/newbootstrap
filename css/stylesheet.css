@@ -1,0 +1,284 @@
+.{
+    box-sizing: border-box;
+}
+.nav li a:hover{
+    text-decoration: underline;
+    color: #5c9f24;
+}
+.nav li a.active{
+    color: white;
+    list-style: none;
+}
+.nav li a{
+    color: rgba(255, 255, 255, 0.7);
+}
+.dropdown .dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: 999;
+    background-color: #fff;
+    width: 183px;
+    padding: 0px 0px 10px 23px;
+    margin: 0px 0px 0px -8px;
+    list-style: none;
+    text-decoration: none;
+}
+.dropdown:hover .dropdown-content a{
+    display: block;
+    padding: 10px 0px;
+    color: grey;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown2 .dropdown-content2{
+    display: none;
+    position: absolute;
+    z-index: 999;
+    text-decoration: none;
+    background-color: #fff;
+    width: 183px;
+    padding: 5px 0px 10px 15px;
+    margin: -47px 0px 0px 146px;
+    list-style: none;
+}
+.dropdown2:hover .dropdown-content2 a{
+    display: block;
+    padding: 10px 0px;
+    color: grey;
+}
+.dropdown2:hover .dropdown-content2{
+    display: block;
+}
+.dropdown2:hover .dropdown-content2 a:hover, .dropdown:hover .dropdown-content a:hover{
+    color: #5c9f24;
+}
+.icon{
+    color: #5c9f24;
+    font-size: 45px;
+}
+.icon-box{
+    margin: -50px 0px 0px 50px;
+}
+.purecounter{
+    font-weight: bold;
+    font-size: 50px;
+}
+.img-tag{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.text{
+    color: #5c9f24;
+}
+.img-fluid{
+    margin-left: 110px;
+}
+.service-icon{
+    margin-left: 175px;
+    margin-top: 55px;
+    font-size: 35px;
+}
+.title:after{
+    content: "";
+    display: flex;
+    width: 50px;
+    height: 1px;
+    background: #5c9f24;
+    margin-left: 185px;
+    margin-top: 8px;
+}
+.font-size{
+    color: #5c9f24;   
+    font-size: 2rem;
+}
+.box{
+    padding: 50px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.3s;
+}
+.portfolio-menu{
+    display: block;
+    padding: 0;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.portfolio-menu li{
+    display: inline-block;
+}
+.portfolio-menu li a{
+    color: black;
+    padding: 7px 20px;
+    border-radius: 0px 0px 3px 3px;
+}
+.portfolio-menu li a.active{
+    color: #fff;
+    background-color: #5c9f24;
+}
+.product-img{
+    margin: 10px;
+}
+.team-member{
+    margin: 8px;
+    margin-bottom: 30px;
+}
+.box{
+    padding: 40px;
+    background: #f7f7f7;
+    text-align: center;
+    line-height: 2.3;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden
+}
+.unstyled{
+    list-style: none;
+}
+.number{
+    font-size: 30px;
+}
+.pricing .box h4 {
+    font-size: 42px;
+    color: #5c9f24;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 20px 
+}
+.pricing .box h4 span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+}
+.btn-buy {
+    display: inline-block;
+    padding: 8px 40px 8px 40px;
+    border-radius: 4px;
+    border: 2px solid #5c9f24;
+    color: #5c9f24;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.btn-buy:hover{
+    background-color: #5c9f24;
+    color: #fff;
+}
+.recommended{
+    background-color: #5c9f24;
+    color: #fff;
+}
+.pricing .recommended h4 {
+    font-size: 42px;
+    color: #fff;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 20px 
+}
+.btn-buy1 {
+    display: inline-block;
+    padding: 8px 40px 8px 40px;
+    border-radius: 4px;
+    border: 1px solid #f8f8f8;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.btn-buy1:hover{
+    color: #5c9f24;
+    background-color: #fff;
+}
+.faq{
+    background-color: #e9ecef;
+}
+.faq-clr{
+    color: #5c9f24;
+}
+.faq-box{
+    padding: 0px 100px;
+}
+.faq{
+    padding: 0px 100px;
+}
+.faq-list{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.faq-list ul{
+    display: block;
+    padding: 0;
+    list-style: none;
+}
+.faq-list li{
+    display: inline-block;
+}
+.faq-list {
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.icon-help{
+    color: #444444;
+    font-size: 20px;
+    float: right;
+}
+.contact-box{
+    box-shadow: 0px 0px 0px 0px;
+}
+.contact .php-email-form button[type=submit] {
+background: #5c9f24;
+border: 0;
+padding: 10px 30px 12px 30px;
+color: #fff;
+transition: 0.4s;
+border-radius: 4px;
+}
+.footer{
+    background-color: #111111;
+}
+.social-media{
+    background-color: #2a2a2a;
+    padding: 9px;
+    font-size: 12px;
+    margin-left: 3px;
+}
+.social-media:hover{
+    color: #fff;
+    background-color: #5c9f24;
+}
+.footer-menu{
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-menu li a{
+    line-height: 2.5;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.subscribe{
+    color: #fff;
+    padding: 9px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #5c9f24;
+}
+.form-btn{
+    padding: 7px 120px 7px 0px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+}
+.copyright{
+    background-color: #000;
+}
