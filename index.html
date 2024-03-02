@@ -14,43 +14,39 @@
   <title>Hello, world!</title>
 </head>
 
-<body>
-  <div class="container-fluid">
-    <div class="row bg-dark p-3">
-      <div class="col-md-3">
-        <h2 class="text-white text-center">GROOVIN</h2>
-      </div>
-      <div class="col-md-7">
-        <ul class="nav">
-          <li class="nav-item"><a href="" class="nav-link active">HOME</a></li>
-          <li class="nav-item"><a href="" class="nav-link">ABOUT</a></li>
-          <li class="nav-item"><a href="" class="nav-link">SERVICES</a></li>
-          <li class="nav-item"><a href="" class="nav-link">PORTFOLIO</a></li>
-          <li class="nav-item"><a href="" class="nav-link">TEAM</a></li>
-          <li class="nav-item dropdown"><a href="" class="nav-link">DROPDOWN<i class="bi bi-chevron-down"></i></a>
-            <ul class=" dropdown-content">
-              <li class="nav-item"><a href="" class="nav-link">Drop Down 1</a></li>
-              <li class="nav-item dropdown2"><a href="" class="nav-link">Deep Drop Down</a>
-                <ul class="dropdown-content2">
-                  <li class="nav-item"><a href="" class="nav-link">Deep Drop Down 1</a></li>
-                  <li class="nav-item"><a href="" class="nav-link">Deep Drop Down 2</a></li>
-                  <li class="nav-item"><a href="" class="nav-link">Deep Drop Down 3</a></li>
-                  <li class="nav-item"><a href="" class="nav-link">Deep Drop Down 4</a></li>
-                </ul>
-              </li>
-              <li class="nav-item"><a href="" class="nav-link">Drop Down 2</a></li>
-              <li class="nav-item"><a href="" class="nav-link">Drop Down 3</a></li>
-              <li class="nav-item"><a href="" class="nav-link">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li class="nav-item"><a href="" class="nav-link">CONTACT</a></li>
-        </ul>
-      </div>
-      <div class="col-md-2">
-        <button type="button" class="btn btn-outline-success">GET STARTED</button>
-      </div>
+<body><div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a href="" class="navbar-brand">GROOVIN</a>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#mynavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="mynavbar">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item"><a href="" class="nav-link active">Home</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">About Us</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+                            <li class="nav-item dropdown">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Drop Down</a>
+                                <div class="dropdown-menu">
+                                    <a href="" class="dropdown-item">Drop Down 1</a>
+                                    <a href="" class="dropdown-item">Drop Down 2</a>
+                                    <a href="" class="dropdown-item">Drop Down 3</a>
+                                    <a href="" class="dropdown-item">Drop Down 4</a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control mr-sm-2 me-2" type="search" placeholder="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </div>
     </div>
-  </div>
 
   <!-----------------------Navbar section is complate------------------->
 
